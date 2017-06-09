@@ -14,17 +14,20 @@ public class ProjectManager : MonoBehaviour
 {
 
 	public static ProjectManager PM; //To enable calling this instance from anyother script.
+    public GameObject m_Player; //This is a reference of the player gameobject.
 
-	public GameObject m_Player; //This is a reference of the player gameobject.
-	[HideInInspector]
+    [HideInInspector]
 	public List<PlaceObject> m_Places; // A list of all places located in the faculty. This list is filled dynamically through code (Check Place.cs script).
 
 	public Text m_PlaceDescription; //This is a referece of the text on the screen.
 	public GameObject m_SearchBar; //This is a reference of the searchbar gameobject.
+
     public GameObject m_BGImage; // This is a reference of the BG image in the game canvas.
     public GameObject m_PlaceDetailsImageHoder; //This is a reference of the image in the center of the screen.
 
-	private bool isSearchOn = false;
+    public GameObject m_FloorMapHolder; //This is a reference of the plane that holds the map of the current floor.
+
+    private bool isSearchOn = false;
 	private bool isSeachSuccessful = false;
 
 	private GameObject currentSearchedPlace; //This is used to hold a reference to the last searched place.

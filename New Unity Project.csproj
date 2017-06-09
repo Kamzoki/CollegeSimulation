@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\InputFieldCustom.cs" />
+    <Compile Include="Assets\Scripts\MapChanger.cs" />
     <Compile Include="Assets\Scripts\Optimizer.cs" />
     <Compile Include="Assets\Scripts\Place.cs" />
     <Compile Include="Assets\Scripts\ProjectManager.cs" />
