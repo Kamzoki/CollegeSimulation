@@ -21,6 +21,8 @@ public class ProjectManager : MonoBehaviour
 
 	public Text m_PlaceDescription; //This is a referece of the text on the screen.
 	public GameObject m_SearchBar; //This is a reference of the searchbar gameobject.
+    public GameObject m_BGImage; // This is a reference of the BG image in the game canvas.
+    public GameObject m_PlaceDetailsImageHoder; //This is a reference of the image in the center of the screen.
 
 	private bool isSearchOn = false;
 	private bool isSeachSuccessful = false;

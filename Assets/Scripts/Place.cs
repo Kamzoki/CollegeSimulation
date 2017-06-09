@@ -5,13 +5,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Place : MonoBehaviour
 {
 	public float m_TimetoHideText = 5f; // This is a public timer that can be adjusted from the inspector to alter the info text clearing.
 	public string m_PlaceMsg; //This is a public string that appears whenever the player search for this place. The string can be changed from the inspector.
+    public Sprite m_PlaceDetails;
 
     private Behaviour halo; //This variable holds a reference of the Halo component which is a special light effect attached to this gameobject.
+    private bool isInRange = false; // This bool indicate when the player is near this place or not.
+
     void Start ()
 	{
         // this function is called after the Awake function.
@@ -25,13 +29,41 @@ public class Place : MonoBehaviour
 	{
         // This function is called on any collision this gameobject does with any other collider.
 		if (col.gameObject.tag == "Player") { // If this gameobject collided with the player.
+            isInRange = true;
 			ProjectManager.PM.m_PlaceDescription.text = gameObject.name; //Setting the text that appears on the screen to this gameobject's name.
             LightOffPlace();
             Invoke ("HideText", m_TimetoHideText); //Calls the function "HideText" after the number of seconds specified by the m_TimeToHideText.
 		}
 	}
 
-	void HideText ()
+    private void OnTriggerExit(Collider col)
+    {
+        //This function is called on any collider leaves the collision of this gameobject.
+        if (col.gameObject.tag == "Player")
+        {
+            isInRange = false;
+
+            // TODO remove comments when ayman finishs his job.
+            //ProjectManager.PM.m_PlaceDetailsImageHoder.GetComponent<Image>().sprite = null;
+            //ProjectManager.PM.m_BGImage.SetActive(false);
+        }
+    }
+
+    private void Update()
+    {
+        if (isInRange == true)
+        {
+            if (Input.GetKeyUp(KeyCode.Tab))
+            { //if player pressed Tab button while in range, dynamically assign the sprite of this place to the reference detials image in PM then activate the BGImage in PM.
+
+                // TODO remove comments when ayman finishs his job.
+               // ProjectManager.PM.m_PlaceDetailsImageHoder.GetComponent<Image>().sprite = m_PlaceDetails;
+                //ProjectManager.PM.m_BGImage.SetActive(true);
+
+            }
+        }
+    }
+    void HideText ()
     { //This functions clears whatever text is in PlaceDescription textholder.
         if (ProjectManager.PM.m_PlaceDescription.text == gameObject.name) {
 			ProjectManager.PM.m_PlaceDescription.text = "";
