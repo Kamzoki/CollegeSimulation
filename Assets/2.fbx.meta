@@ -1,0 +1,1244 @@
+fileFormatVersion: 2
+guid: 098c1b09055594044867e72bd6dd2136
+timeCreated: 1490532307
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: final2:arm_L_01_1
+    100004: final2:arm_L_01_10
+    100006: final2:arm_L_01_11
+    100008: final2:arm_L_01_12
+    100010: final2:arm_L_01_13
+    100012: final2:arm_L_01_14
+    100014: final2:arm_L_01_15
+    100016: final2:arm_L_01_16
+    100018: final2:arm_L_01_17
+    100020: final2:arm_L_01_18
+    100022: final2:arm_L_01_19
+    100024: final2:arm_L_01_2
+    100026: final2:arm_L_01_20
+    100028: final2:arm_L_01_21
+    100030: final2:arm_L_01_22
+    100032: final2:arm_L_01_23
+    100034: final2:arm_L_01_24
+    100036: final2:arm_L_01_3
+    100038: final2:arm_L_01_4
+    100040: final2:arm_L_01_5
+    100042: final2:arm_L_01_6
+    100044: final2:arm_L_01_7
+    100046: final2:arm_L_01_8
+    100048: final2:arm_L_01_9
+    100050: final2:arm_R_01_1
+    100052: final2:arm_R_01_10
+    100054: final2:arm_R_01_11
+    100056: final2:arm_R_01_12
+    100058: final2:arm_R_01_13
+    100060: final2:arm_R_01_14
+    100062: final2:arm_R_01_15
+    100064: final2:arm_R_01_16
+    100066: final2:arm_R_01_17
+    100068: final2:arm_R_01_18
+    100070: final2:arm_R_01_19
+    100072: final2:arm_R_01_2
+    100074: final2:arm_R_01_20
+    100076: final2:arm_R_01_21
+    100078: final2:arm_R_01_22
+    100080: final2:arm_R_01_23
+    100082: final2:arm_R_01_24
+    100084: final2:arm_R_01_3
+    100086: final2:arm_R_01_4
+    100088: final2:arm_R_01_5
+    100090: final2:arm_R_01_6
+    100092: final2:arm_R_01_7
+    100094: final2:arm_R_01_8
+    100096: final2:arm_R_01_9
+    100098: final2:back
+    100100: final2:belt1_blinn1
+    100102: final2:Belt_Geni
+    100104: final2:eye_L_01_1
+    100106: final2:eye_R_01_1
+    100108: final2:Fibers_Beard
+    100110: final2:Fibers_Brows
+    100112: final2:Fibers_Hair
+    100114: final2:Fibers_Mustaches
+    100116: final2:Geni04:Fibers339_blinn1
+    100118: final2:Geni04:Fibers489_blinn1
+    100120: final2:Geni04:Fibers561_blinn1
+    100122: final2:Geni04:Fibers606_blinn1
+    100124: final2:joint12
+    100126: final2:joint13
+    100128: final2:joint14
+    100130: final2:joint2
+    100132: final2:joint3
+    100134: final2:joint4
+    100136: final2:joint5
+    100138: final2:joint6
+    100140: final2:Low_Anatomy-Geni
+    100142: final2:Low_Anatomy_Geni
+    100144: final2:Low_Belt_Geni
+    100146: final2:low_Eyes_Geni
+    100148: final2:low_Eyes_Geni 1
+    100150: final2:low_Eyes_Geni_blinn1
+    100152: final2:Low_Geni
+    100154: final2:Main Camera
+    100156: final2:Mesh1_blinn1
+    100158: final2:nurbsCube1
+    100160: final2:nurbsCube2
+    100162: final2:nurbsCube3
+    100164: final2:Render
+    100166: final2:Sky
+    400000: //RootNode
+    400002: final2:arm_L_01_1
+    400004: final2:arm_L_01_10
+    400006: final2:arm_L_01_11
+    400008: final2:arm_L_01_12
+    400010: final2:arm_L_01_13
+    400012: final2:arm_L_01_14
+    400014: final2:arm_L_01_15
+    400016: final2:arm_L_01_16
+    400018: final2:arm_L_01_17
+    400020: final2:arm_L_01_18
+    400022: final2:arm_L_01_19
+    400024: final2:arm_L_01_2
+    400026: final2:arm_L_01_20
+    400028: final2:arm_L_01_21
+    400030: final2:arm_L_01_22
+    400032: final2:arm_L_01_23
+    400034: final2:arm_L_01_24
+    400036: final2:arm_L_01_3
+    400038: final2:arm_L_01_4
+    400040: final2:arm_L_01_5
+    400042: final2:arm_L_01_6
+    400044: final2:arm_L_01_7
+    400046: final2:arm_L_01_8
+    400048: final2:arm_L_01_9
+    400050: final2:arm_R_01_1
+    400052: final2:arm_R_01_10
+    400054: final2:arm_R_01_11
+    400056: final2:arm_R_01_12
+    400058: final2:arm_R_01_13
+    400060: final2:arm_R_01_14
+    400062: final2:arm_R_01_15
+    400064: final2:arm_R_01_16
+    400066: final2:arm_R_01_17
+    400068: final2:arm_R_01_18
+    400070: final2:arm_R_01_19
+    400072: final2:arm_R_01_2
+    400074: final2:arm_R_01_20
+    400076: final2:arm_R_01_21
+    400078: final2:arm_R_01_22
+    400080: final2:arm_R_01_23
+    400082: final2:arm_R_01_24
+    400084: final2:arm_R_01_3
+    400086: final2:arm_R_01_4
+    400088: final2:arm_R_01_5
+    400090: final2:arm_R_01_6
+    400092: final2:arm_R_01_7
+    400094: final2:arm_R_01_8
+    400096: final2:arm_R_01_9
+    400098: final2:back
+    400100: final2:belt1_blinn1
+    400102: final2:Belt_Geni
+    400104: final2:eye_L_01_1
+    400106: final2:eye_R_01_1
+    400108: final2:Fibers_Beard
+    400110: final2:Fibers_Brows
+    400112: final2:Fibers_Hair
+    400114: final2:Fibers_Mustaches
+    400116: final2:Geni04:Fibers339_blinn1
+    400118: final2:Geni04:Fibers489_blinn1
+    400120: final2:Geni04:Fibers561_blinn1
+    400122: final2:Geni04:Fibers606_blinn1
+    400124: final2:joint12
+    400126: final2:joint13
+    400128: final2:joint14
+    400130: final2:joint2
+    400132: final2:joint3
+    400134: final2:joint4
+    400136: final2:joint5
+    400138: final2:joint6
+    400140: final2:Low_Anatomy-Geni
+    400142: final2:Low_Anatomy_Geni
+    400144: final2:Low_Belt_Geni
+    400146: final2:low_Eyes_Geni
+    400148: final2:low_Eyes_Geni 1
+    400150: final2:low_Eyes_Geni_blinn1
+    400152: final2:Low_Geni
+    400154: final2:Main Camera
+    400156: final2:Mesh1_blinn1
+    400158: final2:nurbsCube1
+    400160: final2:nurbsCube2
+    400162: final2:nurbsCube3
+    400164: final2:Render
+    400166: final2:Sky
+    4300000: final2:Low_Anatomy_Geni
+    4300002: final2:Fibers_Beard
+    4300004: final2:Fibers_Mustaches
+    4300006: final2:Fibers_Hair
+    4300008: final2:low_Eyes_Geni
+    4300010: final2:Fibers_Brows
+    4300012: final2:Belt_Geni
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: final2:Belt_Geni
+    13700002: final2:Fibers_Beard
+    13700004: final2:Fibers_Brows
+    13700006: final2:Fibers_Hair
+    13700008: final2:Fibers_Mustaches
+    13700010: final2:Low_Anatomy_Geni
+    13700012: final2:low_Eyes_Geni 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1288
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: final2:back
+        weight: 1
+      - path: final2:joint2
+        weight: 1
+      - path: final2:joint2/final2:joint12
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_6
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_6/final2:arm_L_01_7
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_6/final2:arm_L_01_7/final2:arm_L_01_8
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_6/final2:arm_L_01_7/final2:arm_L_01_8/final2:arm_L_01_9
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_10
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_10/final2:arm_L_01_11
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_10/final2:arm_L_01_11/final2:arm_L_01_12
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_10/final2:arm_L_01_11/final2:arm_L_01_12/final2:arm_L_01_13
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_14
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_14/final2:arm_L_01_15
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_14/final2:arm_L_01_15/final2:arm_L_01_16
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_14/final2:arm_L_01_15/final2:arm_L_01_16/final2:arm_L_01_17
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_18
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_18/final2:arm_L_01_19
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_18/final2:arm_L_01_19/final2:arm_L_01_20
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_18/final2:arm_L_01_19/final2:arm_L_01_20/final2:arm_L_01_21
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_22
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_22/final2:arm_L_01_23
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_L_01_1/final2:arm_L_01_2/final2:arm_L_01_3/final2:arm_L_01_4/final2:arm_L_01_5/final2:arm_L_01_22/final2:arm_L_01_23/final2:arm_L_01_24
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_6
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_6/final2:arm_R_01_7
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_6/final2:arm_R_01_7/final2:arm_R_01_8
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_6/final2:arm_R_01_7/final2:arm_R_01_8/final2:arm_R_01_9
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_10
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_10/final2:arm_R_01_11
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_10/final2:arm_R_01_11/final2:arm_R_01_12
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_10/final2:arm_R_01_11/final2:arm_R_01_12/final2:arm_R_01_13
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_14
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_14/final2:arm_R_01_15
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_14/final2:arm_R_01_15/final2:arm_R_01_16
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_14/final2:arm_R_01_15/final2:arm_R_01_16/final2:arm_R_01_17
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_18
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_18/final2:arm_R_01_19
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_18/final2:arm_R_01_19/final2:arm_R_01_20
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_18/final2:arm_R_01_19/final2:arm_R_01_20/final2:arm_R_01_21
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_22
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_22/final2:arm_R_01_23
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:arm_R_01_1/final2:arm_R_01_2/final2:arm_R_01_3/final2:arm_R_01_4/final2:arm_R_01_5/final2:arm_R_01_22/final2:arm_R_01_23/final2:arm_R_01_24
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:joint4
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:joint4/final2:joint5
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:joint4/final2:joint5/final2:eye_L_01_1
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:joint4/final2:joint5/final2:eye_R_01_1
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:joint4/final2:joint5/final2:joint6
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:joint4/final2:joint5/final2:joint13
+        weight: 1
+      - path: final2:joint2/final2:joint12/final2:joint3/final2:joint4/final2:joint5/final2:joint13/final2:joint14
+        weight: 1
+      - path: final2:Low_Anatomy-Geni
+        weight: 1
+      - path: final2:Low_Anatomy_Geni
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Belt_Geni
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Belt_Geni/final2:belt1_blinn1
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Fibers_Beard
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Fibers_Beard/final2:Geni04:Fibers561_blinn1
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Fibers_Brows
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Fibers_Brows/final2:Geni04:Fibers339_blinn1
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Fibers_Hair
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Fibers_Hair/final2:Geni04:Fibers606_blinn1
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Fibers_Mustaches
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Fibers_Mustaches/final2:Geni04:Fibers489_blinn1
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:low_Eyes_Geni 1
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:low_Eyes_Geni 1/final2:low_Eyes_Geni_blinn1
+        weight: 1
+      - path: final2:Low_Anatomy_Geni/final2:Mesh1_blinn1
+        weight: 1
+      - path: final2:Low_Belt_Geni
+        weight: 1
+      - path: final2:low_Eyes_Geni
+        weight: 1
+      - path: final2:Low_Geni
+        weight: 1
+      - path: final2:Main Camera
+        weight: 1
+      - path: final2:nurbsCube1
+        weight: 1
+      - path: final2:nurbsCube2
+        weight: 1
+      - path: final2:nurbsCube3
+        weight: 1
+      - path: final2:Render
+        weight: 1
+      - path: final2:Sky
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: final2:joint2
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:joint12
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:joint3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:joint4
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:joint5
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_1
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_1
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_2
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_2
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_3
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_3
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_5
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_5
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:eye_L_01_1
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:eye_R_01_1
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:joint13
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_22
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_23
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_24
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_6
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_7
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_8
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_10
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_11
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_12
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_14
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_15
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_16
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_18
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_19
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_L_01_20
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_22
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_23
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_24
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_6
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_7
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_8
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_10
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_11
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_12
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_14
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_15
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_16
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_18
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_19
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: final2:arm_R_01_20
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: 2(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:back
+      parentName: 2(Clone)
+      position: {x: -0.069287054, y: 0.3769048, z: -10.000999}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Low_Anatomy-Geni
+      parentName: 2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: final2:Low_Anatomy_Geni
+      parentName: 2(Clone)
+      position: {x: -7.216449e-18, y: 0.43110156, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 4.697307, y: 4.697307, z: 4.697307}
+    - name: final2:Belt_Geni
+      parentName: final2:Low_Anatomy_Geni
+      position: {x: -4.9303805e-34, y: -3.5527136e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:belt1_blinn1
+      parentName: final2:Belt_Geni
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Fibers_Beard
+      parentName: final2:Low_Anatomy_Geni
+      position: {x: -2.4651903e-34, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Geni04:Fibers561_blinn1
+      parentName: final2:Fibers_Beard
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Fibers_Brows
+      parentName: final2:Low_Anatomy_Geni
+      position: {x: -2.4651903e-34, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Geni04:Fibers339_blinn1
+      parentName: final2:Fibers_Brows
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Fibers_Hair
+      parentName: final2:Low_Anatomy_Geni
+      position: {x: -2.4651903e-34, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Geni04:Fibers606_blinn1
+      parentName: final2:Fibers_Hair
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Fibers_Mustaches
+      parentName: final2:Low_Anatomy_Geni
+      position: {x: -2.4651903e-34, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Geni04:Fibers489_blinn1
+      parentName: final2:Fibers_Mustaches
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:low_Eyes_Geni 1
+      parentName: final2:Low_Anatomy_Geni
+      position: {x: 0.00017977087, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:low_Eyes_Geni_blinn1
+      parentName: final2:low_Eyes_Geni 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Mesh1_blinn1
+      parentName: final2:Low_Anatomy_Geni
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Low_Belt_Geni
+      parentName: 2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: final2:low_Eyes_Geni
+      parentName: 2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: final2:Low_Geni
+      parentName: 2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: final2:Main Camera
+      parentName: 2(Clone)
+      position: {x: 5.672271, y: 0.9621346, z: 13.331304}
+      rotation: {x: -0.13502094, y: 0.20422588, z: 0.028452534, w: 0.96914995}
+      scale: {x: 100, y: 100, z: 100}
+    - name: final2:nurbsCube1
+      parentName: 2(Clone)
+      position: {x: -0.163408, y: 0.19154787, z: -0.29129517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 847.80646, y: 847.80646, z: 847.80646}
+    - name: final2:nurbsCube2
+      parentName: 2(Clone)
+      position: {x: -0.18520501, y: 0.12620024, z: -0.39827517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:nurbsCube3
+      parentName: 2(Clone)
+      position: {x: 0.22946408, y: 0.12620024, z: -0.39827517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: final2:Render
+      parentName: 2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: final2:Sky
+      parentName: 2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.66588265, z: -0, w: 0.7460565}
+      scale: {x: 99.99999, y: 100, z: 99.99999}
+    - name: final2:joint2
+      parentName: 2(Clone)
+      position: {x: -0.00035684253, y: 0.045431927, z: 0}
+      rotation: {x: -0.0000000035096317, y: -0.0000000035002237, z: -0.7052914, w: 0.70891756}
+      scale: {x: 1.000001, y: 1.000001, z: 1}
+    - name: final2:joint12
+      parentName: final2:joint2
+      position: {x: -0.089583255, y: -0.0000000012238293, z: 0}
+      rotation: {x: -0, y: -0, z: -1.2284494e-17, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: final2:joint3
+      parentName: final2:joint12
+      position: {x: -0.09984876, y: 0.00015718139, z: 0}
+      rotation: {x: -1.5212498e-11, y: 0.0000000049566324, z: 0.00083717704, w: 0.9999997}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1}
+    - name: final2:arm_L_01_1
+      parentName: final2:joint3
+      position: {x: -0.06795227, y: -0.046655115, z: -0.042530093}
+      rotation: {x: 2.6685536e-11, y: -2.806155e-11, z: 0.72465754, w: 0.6891092}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: final2:arm_L_01_2
+      parentName: final2:arm_L_01_1
+      position: {x: -0.056636333, y: -0.014538712, z: 0}
+      rotation: {x: -0.00000001535256, y: -0.000000015736752, z: 0.013726024, w: 0.9999059}
+      scale: {x: 0.9999997, y: 0.9999999, z: 1.0000002}
+    - name: final2:arm_L_01_3
+      parentName: final2:arm_L_01_2
+      position: {x: -0.1468824, y: 0.0077702594, z: 0}
+      rotation: {x: 0.82724375, y: 0.5476841, z: 0.0077786967, w: 0.12509754}
+      scale: {x: 0.99999964, y: 1.0000001, z: 1.0000001}
+    - name: final2:arm_L_01_4
+      parentName: final2:arm_L_01_3
+      position: {x: -0.028213723, y: -0.1082139, z: -0.034319825}
+      rotation: {x: -0.4793863, y: -0.87056434, z: -0.035917964, w: 0.104958855}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000001}
+    - name: final2:arm_L_01_5
+      parentName: final2:arm_L_01_4
+      position: {x: -0.026779434, y: -0.040408142, z: 0.0010334951}
+      rotation: {x: -0.0016140377, y: -0.0025447009, z: 0.38167074, w: 0.92429346}
+      scale: {x: 1.0000002, y: 1.0000012, z: 1.0000006}
+    - name: final2:arm_L_01_18
+      parentName: final2:arm_L_01_5
+      position: {x: -0.013852174, y: -0.005353158, z: -0.022529194}
+      rotation: {x: -0.6876325, y: -0.044783413, z: 0.096303545, w: 0.718249}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.0000005}
+    - name: final2:arm_L_01_19
+      parentName: final2:arm_L_01_18
+      position: {x: -0.022550322, y: -4.440892e-18, z: 1.4791142e-33}
+      rotation: {x: 0.0007112918, y: -0.037947405, z: 0.0021465116, w: 0.99927723}
+      scale: {x: 1, y: 0.9999999, z: 1.000001}
+    - name: final2:arm_L_01_20
+      parentName: final2:arm_L_01_19
+      position: {x: -0.012531491, y: -9.103829e-17, z: 5.2972663e-20}
+      rotation: {x: 0.00000003544846, y: 0.00000016391273, z: -0.002655715, w: 0.9999965}
+      scale: {x: 0.9999999, y: 1.0000006, z: 1.0000002}
+    - name: final2:arm_L_01_21
+      parentName: final2:arm_L_01_20
+      position: {x: -0.009236228, y: 1.8318679e-17, z: 2.270257e-20}
+      rotation: {x: 0.42009354, y: 0.56878924, z: -0.42009366, w: 0.5687896}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000005}
+    - name: final2:arm_L_01_14
+      parentName: final2:arm_L_01_5
+      position: {x: -0.020703368, y: -0.0007404249, z: -0.010985156}
+      rotation: {x: -0.7101052, y: -0.04515924, z: 0.12175891, w: 0.692016}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+    - name: final2:arm_L_01_15
+      parentName: final2:arm_L_01_14
+      position: {x: -0.02537686, y: -2.081668e-18, z: -5.634795e-18}
+      rotation: {x: -0.0000001490116, y: 0.00000004470348, z: -0.029738914, w: 0.9995578}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000012}
+    - name: final2:arm_L_01_16
+      parentName: final2:arm_L_01_15
+      position: {x: -0.015248242, y: 2.3037127e-17, z: -3.5810915e-18}
+      rotation: {x: 0.0000001802837, y: -0.000000005195029, z: -0.029045552, w: 0.99957806}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000012}
+    - name: final2:arm_L_01_17
+      parentName: final2:arm_L_01_16
+      position: {x: -0.012615029, y: 7.216449e-18, z: -3.1103674e-18}
+      rotation: {x: 0.4578512, y: 0.538862, z: -0.45785126, w: 0.53886205}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: final2:arm_L_01_10
+      parentName: final2:arm_L_01_5
+      position: {x: -0.020574842, y: -0.0020374558, z: 0.0034126665}
+      rotation: {x: 0.68708295, y: 0.13160026, z: 0.04561357, w: 0.7131043}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000002}
+    - name: final2:arm_L_01_11
+      parentName: final2:arm_L_01_10
+      position: {x: -0.021772351, y: -1.6653345e-18, z: -4.9303805e-34}
+      rotation: {x: 0.00000008940696, y: 0.00000004470348, z: 0.022436408, w: 0.9997483}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000006}
+    - name: final2:arm_L_01_12
+      parentName: final2:arm_L_01_11
+      position: {x: -0.012904144, y: -1.3739009e-17, z: -1.92813e-19}
+      rotation: {x: -0.00000008827278, y: 0.000000030875036, z: -0.010267041, w: 0.9999473}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: final2:arm_L_01_13
+      parentName: final2:arm_L_01_12
+      position: {x: -0.023784375, y: 1.20736755e-17, z: -1.92813e-19}
+      rotation: {x: -0.4903908, y: -0.5094279, z: -0.49039084, w: 0.5094279}
+      scale: {x: 0.9999998, y: 0.99999964, z: 0.9999995}
+    - name: final2:arm_L_01_6
+      parentName: final2:arm_L_01_5
+      position: {x: -0.016381117, y: -0.0064799427, z: 0.017082699}
+      rotation: {x: 0.66030425, y: 0.15376551, z: 0.024569087, w: 0.7346774}
+      scale: {x: 1.0000002, y: 1.0000007, z: 0.9999999}
+    - name: final2:arm_L_01_7
+      parentName: final2:arm_L_01_6
+      position: {x: -0.02360707, y: -4.440892e-18, z: -4.9303805e-34}
+      rotation: {x: -0.00000005960463, y: 0.00000005960463, z: 0.028394498, w: 0.99959683}
+      scale: {x: 0.99999934, y: 0.9999995, z: 1.0000002}
+    - name: final2:arm_L_01_8
+      parentName: final2:arm_L_01_7
+      position: {x: -0.019843098, y: -3.0531134e-17, z: 6.4836182e-18}
+      rotation: {x: 0.00000006013608, y: -0.000000001162842, z: -0.009104792, w: 0.9999586}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: final2:arm_L_01_9
+      parentName: final2:arm_L_01_8
+      position: {x: -0.013896344, y: 1.498801e-17, z: -3.024977e-17}
+      rotation: {x: -0.44391638, y: -0.5503984, z: -0.44391632, w: 0.5503983}
+      scale: {x: 1.0000012, y: 1.0000002, z: 1.000001}
+    - name: final2:arm_L_01_22
+      parentName: final2:arm_L_01_5
+      position: {x: 0.01350927, y: -0.015491619, z: 0.030890271}
+      rotation: {x: 0.5305679, y: 0.38509765, z: -0.17044458, w: 0.73562646}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000004}
+    - name: final2:arm_L_01_23
+      parentName: final2:arm_L_01_22
+      position: {x: -0.025413176, y: -3.330669e-18, z: 5.6428586e-18}
+      rotation: {x: 0.000000089406925, y: 0.000000089406925, z: -0.04433026, w: 0.99901694}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: final2:arm_L_01_24
+      parentName: final2:arm_L_01_23
+      position: {x: -0.034363747, y: -0.00028384963, z: 8.788513e-18}
+      rotation: {x: -0.37501138, y: -0.5994719, z: -0.37501127, w: 0.59947187}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+    - name: final2:arm_R_01_1
+      parentName: final2:joint3
+      position: {x: -0.06731166, y: 0.04757529, z: -0.042530097}
+      rotation: {x: 0.72932845, y: 0.68416375, z: 2.6493464e-11, w: -2.8242738e-11}
+      scale: {x: 0.9999999, y: 1.0000008, z: 1.0000014}
+    - name: final2:arm_R_01_2
+      parentName: final2:arm_R_01_1
+      position: {x: 0.056636523, y: 0.014539578, z: 0}
+      rotation: {x: -0.000000035177486, y: -0.00000001600895, z: 0.013726827, w: 0.99990577}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: final2:arm_R_01_3
+      parentName: final2:arm_R_01_2
+      position: {x: 0.14688198, y: -0.0077705286, z: -2.6645352e-17}
+      rotation: {x: 0.82724434, y: 0.5476833, z: 0.0077782404, w: 0.1250973}
+      scale: {x: 1.0000014, y: 1.0000017, z: 0.99999994}
+    - name: final2:arm_R_01_4
+      parentName: final2:arm_R_01_3
+      position: {x: 0.028213888, y: 0.10821375, z: 0.03431976}
+      rotation: {x: -0.4793863, y: -0.87056434, z: -0.03591797, w: 0.10495884}
+      scale: {x: 1.0000004, y: 0.9999992, z: 1.0000005}
+    - name: final2:arm_R_01_5
+      parentName: final2:arm_R_01_4
+      position: {x: 0.026779244, y: 0.040408153, z: -0.0010335257}
+      rotation: {x: -0.0016140265, y: -0.0025446934, z: 0.38167077, w: 0.9242934}
+      scale: {x: 1, y: 1.0000005, z: 0.99999976}
+    - name: final2:arm_R_01_18
+      parentName: final2:arm_R_01_5
+      position: {x: 0.013852362, y: 0.005352962, z: 0.022529198}
+      rotation: {x: -0.687633, y: -0.044779256, z: 0.09630004, w: 0.71824926}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+    - name: final2:arm_R_01_19
+      parentName: final2:arm_R_01_18
+      position: {x: 0.022550361, y: 0.000000022082967, z: 7.105427e-17}
+      rotation: {x: -0.00071150064, y: 0.03796301, z: -0.0021486953, w: -0.9992766}
+      scale: {x: 1.0000014, y: 1.0000017, z: 1.0000005}
+    - name: final2:arm_R_01_20
+      parentName: final2:arm_R_01_19
+      position: {x: 0.012531414, y: -0.000000045156966, z: -0.00000032386848}
+      rotation: {x: -0.000000017229462, y: 0.00000014156097, z: -0.0026556484, w: 0.9999965}
+      scale: {x: 1.0000004, y: 0.9999999, z: 0.9999998}
+    - name: final2:arm_R_01_21
+      parentName: final2:arm_R_01_20
+      position: {x: 0.009236333, y: -0.000000007681248, z: 0.00000075192406}
+      rotation: {x: -0.42009357, y: -0.56878936, z: 0.4200937, w: -0.5687895}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.0000011}
+    - name: final2:arm_R_01_14
+      parentName: final2:arm_R_01_5
+      position: {x: 0.020703362, y: 0.0007405043, z: 0.0109852}
+      rotation: {x: -0.7101064, y: -0.04515541, z: 0.1217548, w: 0.6920157}
+      scale: {x: 1.000001, y: 1.0000012, z: 1.0000007}
+    - name: final2:arm_R_01_15
+      parentName: final2:arm_R_01_14
+      position: {x: 0.025376886, y: 0.00000006957356, z: 3.5527136e-17}
+      rotation: {x: -0, y: 0.000000044703484, z: -0.029738978, w: 0.9995578}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000001}
+    - name: final2:arm_R_01_16
+      parentName: final2:arm_R_01_15
+      position: {x: 0.015248248, y: -0.00000002375132, z: 3.5527136e-17}
+      rotation: {x: 0.00000020849187, y: 0.00000005094522, z: -0.029045485, w: 0.9995782}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: final2:arm_R_01_17
+      parentName: final2:arm_R_01_16
+      position: {x: 0.01261498, y: -0.000000025120443, z: 0}
+      rotation: {x: 0.45785123, y: 0.53886193, z: -0.4578513, w: 0.53886205}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: final2:arm_R_01_10
+      parentName: final2:arm_R_01_5
+      position: {x: 0.020574955, y: 0.002037366, z: -0.0034127}
+      rotation: {x: -0.68708307, y: -0.13159315, z: -0.04560348, w: -0.71310616}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: final2:arm_R_01_11
+      parentName: final2:arm_R_01_10
+      position: {x: 0.021772316, y: 0.000000019725343, z: -0.0000003634918}
+      rotation: {x: -0.00000008940697, y: -0.000000014901161, z: 0.022436596, w: 0.9997483}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.9999996}
+    - name: final2:arm_R_01_12
+      parentName: final2:arm_R_01_11
+      position: {x: 0.012904214, y: 0.000000054898774, z: 0.0000002762369}
+      rotation: {x: 0.00000014716535, y: -0.00000007690987, z: -0.010267254, w: 0.9999473}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000013}
+    - name: final2:arm_R_01_13
+      parentName: final2:arm_R_01_12
+      position: {x: 0.023784347, y: -0.000000086466244, z: 0.00000010607093}
+      rotation: {x: 0.4903908, y: 0.50942796, z: 0.49039078, w: -0.509428}
+      scale: {x: 0.9999995, y: 0.99999976, z: 0.9999996}
+    - name: final2:arm_R_01_6
+      parentName: final2:arm_R_01_5
+      position: {x: 0.016381344, y: 0.0064796824, z: -0.01708269}
+      rotation: {x: 0.6603041, y: 0.15376088, z: 0.024564816, w: 0.7346786}
+      scale: {x: 1.0000007, y: 1.0000006, z: 0.99999976}
+    - name: final2:arm_R_01_7
+      parentName: final2:arm_R_01_6
+      position: {x: 0.023607051, y: -0.000000009588384, z: 0}
+      rotation: {x: 0.000000059604645, y: -0.00000008940697, z: 0.028394505, w: 0.99959683}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000011}
+    - name: final2:arm_R_01_8
+      parentName: final2:arm_R_01_7
+      position: {x: 0.019843083, y: -6.844304e-10, z: 3.5527136e-17}
+      rotation: {x: -0.0000000918901, y: -0.000000057565053, z: -0.009104737, w: 0.9999586}
+      scale: {x: 0.99999964, y: 1, z: 1.0000002}
+    - name: final2:arm_R_01_9
+      parentName: final2:arm_R_01_8
+      position: {x: 0.013896423, y: 0.000000014659847, z: -7.105427e-17}
+      rotation: {x: -0.44391632, y: -0.55039823, z: -0.44391638, w: 0.5503984}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.000001}
+    - name: final2:arm_R_01_22
+      parentName: final2:arm_R_01_5
+      position: {x: -0.013509142, y: 0.0154914325, z: -0.03089027}
+      rotation: {x: 0.53056675, y: 0.385096, z: -0.17044722, w: 0.7356275}
+      scale: {x: 1.0000002, y: 1.0000005, z: 0.9999994}
+    - name: final2:arm_R_01_23
+      parentName: final2:arm_R_01_22
+      position: {x: 0.025413215, y: 0.000000006323928, z: 0}
+      rotation: {x: 0.000000059604638, y: 0.0000008344649, z: -0.044328656, w: 0.999017}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000007}
+    - name: final2:arm_R_01_24
+      parentName: final2:arm_R_01_23
+      position: {x: 0.034363702, y: 0.0002838438, z: -3.5527136e-17}
+      rotation: {x: -0.37501138, y: -0.59947187, z: -0.37501135, w: 0.5994718}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000007}
+    - name: final2:joint4
+      parentName: final2:joint3
+      position: {x: -0.08904848, y: -0.00020850223, z: -0.013148138}
+      rotation: {x: 1.6622526e-10, y: 0.0000000049572506, z: 0.0055262, w: 0.9999848}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: final2:joint5
+      parentName: final2:joint4
+      position: {x: -0.045605566, y: -1.1974562e-16, z: -0.004514347}
+      rotation: {x: 0.7062835, y: -0.0341119, z: 0.021496503, w: 0.70678}
+      scale: {x: 1.0000008, y: 1.0000014, z: 1.0000015}
+    - name: final2:joint6
+      parentName: final2:joint5
+      position: {x: -0.11845829, y: 3.2687392e-17, z: -1.4353017e-16}
+      rotation: {x: -0.479952, y: 0.5192746, z: 0.479952, w: 0.51927465}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: final2:joint13
+      parentName: final2:joint5
+      position: {x: 0.00828724, y: 0.0545046, z: -0.0007027306}
+      rotation: {x: -0.07522007, y: 0.7747605, z: 0.618127, w: 0.1095773}
+      scale: {x: 1.0000031, y: 1.0000036, z: 1.0000019}
+    - name: final2:joint14
+      parentName: final2:joint13
+      position: {x: -0.06768952, y: -0.02134286, z: 0.004802775}
+      rotation: {x: 0.07522007, y: -0.7747605, z: -0.618127, w: 0.1095773}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.0000001}
+    - name: final2:eye_L_01_1
+      parentName: final2:joint5
+      position: {x: -0.049563106, y: 0.057014097, z: 0.013825642}
+      rotation: {x: -0.70655984, y: 0.027805286, z: -0.027805323, w: 0.7065599}
+      scale: {x: 1.0000035, y: 1.0000019, z: 1.0000014}
+    - name: final2:eye_R_01_1
+      parentName: final2:joint5
+      position: {x: -0.050303, y: 0.05707241, z: -0.020807507}
+      rotation: {x: 0.027805327, y: 0.7065599, z: -0.70655984, w: -0.02780529}
+      scale: {x: 1.0000046, y: 1.0000031, z: 1.0000056}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
